@@ -1,0 +1,79 @@
+@media (max-width: 767px) {
+  header nav {
+    height: 4.5rem;
+  }
+
+  header .chibowski-header-logo {
+    height: clamp(2.7rem, 11vw, 3.25rem) !important;
+    max-width: calc(100vw - 6.5rem) !important;
+    object-fit: contain;
+  }
+
+  #home {
+    min-height: auto !important;
+    align-items: flex-start !important;
+    padding-top: 5.75rem;
+    padding-bottom: 3.25rem;
+  }
+
+  #home .chibowski-hero-logo {
+    display: none !important;
+  }
+
+  #home .chibowski-hero-content > div {
+    max-width: 100%;
+  }
+
+  #home h1 {
+    font-size: clamp(2.05rem, 9vw, 3rem);
+    line-height: 1.08;
+    margin-bottom: 1rem;
+  }
+
+  #home h1 span {
+    margin-top: .45rem;
+  }
+
+  #home h1 + p {
+    font-size: 1rem;
+    line-height: 1.65;
+    margin-bottom: 1.5rem;
+  }
+
+  #home .btn-hero,
+  #home .btn-hero + a {
+    width: 100%;
+    justify-content: center;
+    padding: .95rem 1.25rem;
+  }
+
+  #home .grid {
+    gap: 1rem;
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+  }
+
+  #home .grid span:first-child {
+    font-size: 2.1rem;
+    line-height: 1.1;
+  }
+
+  #home > a[href="#about"] {
+    bottom: 1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  header .chibowski-header-logo {
+    height: 2.55rem !important;
+    max-width: calc(100vw - 5.75rem) !important;
+  }
+
+  #home {
+    padding-top: 5.25rem;
+  }
+
+  #home h1 {
+    font-size: 2.05rem;
+  }
+}
