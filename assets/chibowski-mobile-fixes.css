@@ -61,6 +61,13 @@
   #home > a[href="#about"] {
     bottom: 1rem;
   }
+
+  .reveal-on-scroll,
+  .reveal-on-scroll[class*="reveal-delay-"] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
 }
 
 @media (max-width: 380px) {
